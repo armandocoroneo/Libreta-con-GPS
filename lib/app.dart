@@ -40,16 +40,16 @@ class LibretaGPSApp extends StatelessWidget {
       ),
 
       home: const Scaffold(
-        appBar: AppBar(
-          title: Text('Libreta GPS'),
-        ),
-        body: Center(
-          child: Text(
-            'Versión 0.0.1',
-            style: TextStyle(fontSize: 28),
-          ),
-        ),
-      ),
+  appBar: AppBar(
+    title: Text('Libreta GPS'),
+  ),
+  body: Center(
+    child: const Text(
+      'Versión 0.0.1',
+      style: TextStyle(fontSize: 28),
+    ),
+  ),
+),
     );
   }
 }
