@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class LibretaGPSApp extends StatelessWidget {
@@ -9,7 +8,6 @@ class LibretaGPSApp extends StatelessWidget {
     return MaterialApp(
       title: 'Libreta GPS',
       debugShowCheckedModeBanner: false,
-
       themeMode: ThemeMode.dark,
 
       theme: ThemeData(
@@ -39,17 +37,17 @@ class LibretaGPSApp extends StatelessWidget {
         ),
       ),
 
-      home: const Scaffold(
-  appBar: AppBar(
-    title: Text('Libreta GPS'),
-  ),
-  body: Center(
-    child: const Text(
-      'Versión 0.0.1',
-      style: TextStyle(fontSize: 28),
-    ),
-  ),
-),
+      home: Scaffold(
+        appBar: AppBar(
+          title: const Text('Libreta GPS'),
+        ),
+        body: const Center(
+          child: Text(
+            'Versión 0.0.1',
+            style: TextStyle(fontSize: 28),
+          ),
+        ),
+      ),
     );
   }
 }
