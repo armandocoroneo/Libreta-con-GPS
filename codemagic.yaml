@@ -3,11 +3,10 @@ workflows:
     name: Libreta GPS Android
 
     environment:
-      flutter: stable
+      flutter: "3.29.3"
 
     scripts:
       - flutter pub get
-      - flutter analyze
       - flutter build apk --release
 
     artifacts:
