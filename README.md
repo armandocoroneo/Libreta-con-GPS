@@ -14,3 +14,4 @@ Libreta GPS es una aplicación Android diseñada para repartidores, vendedores y
 - 🔠 Letras grandes
 - 📶 Pensada para funcionar con pocos datos
 - 💾 Base de datos local (SQLite)
+Última actualización.
